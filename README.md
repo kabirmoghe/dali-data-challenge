@@ -36,5 +36,4 @@ I also applied the same pipeline (using only section size as a feature) for the 
 
 Ultimately, the model didn't perform exceptionally well in any instance but actually performed the best, using the coefficient, R^2, MAD, and MSE, with the whole dataset.
 
-
-
+* Here, I used scikit-learn's modules for splitting the data, training a linear regression model, and evaluating using the above metrics.
