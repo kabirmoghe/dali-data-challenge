@@ -1,5 +1,5 @@
 # DALI Data Challenge [Dartmouth Course Exploration]
-Hi, I'm Kabir, and here's my submission for the DALI data challenge, specifically with the ```Dartmouth - Courses.csv``` data. The following process is what I followed in ```DALI Course Exploration.ipynb```.
+Hi, I'm Kabir, and here's my submission for the DALI data challenge (applying for 24S), specifically with the ```Dartmouth - Courses.csv``` data. The following process is what I followed in ```DALI Course Exploration.ipynb```.
  
 ## Pipeline
 
