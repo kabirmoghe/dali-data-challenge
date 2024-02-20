@@ -27,7 +27,7 @@ Here, I imputed missing values in the data (for the 1000+ null values) using an 
 I also looked at the Pearson and Spearman correlation values between each numerical feature and median GPA, which substantiated the observation that section size and enrollments seemed the most highly correlated with median GPA.
 
 * Here, I used scikit-learn's KNN imputer for convenience, which seemed to work okay when studying the imputed values, though R and certain libraries could have worked better.
-* I used pandas' built-in ```.corr()``` to study relationships here.
+* I used pandas' built-in `.corr()` to study relationships here.
 
 ### Machine Learning Steps
 Based on the visual relationships and correlation values, I opted to use linear regression for this prediction task. I ultimately went through a few feature selection steps, testing the model with all numerical features (i.e. barring <b>Department</b>), only enrollments and section size, and then just section size. Ultimately, section size on its own seemed to perform better, though this validity is limited by the sample size and randomness of the samples chosen.
